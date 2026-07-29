@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Spero Technologies</title>
+        <meta
+            name="description"
+            content="Spero Technologies is a small software company. We make open source apps, including Roam, a Roku remote for Apple platforms."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Spero Technologies" />
+        <meta
+            property="og:description"
+            content="A small software company. We make open source apps."
+        />
+        <meta property="og:url" content="https://spero-technologies.com/" />
+        <meta name="twitter:card" content="summary" />
+
+        <link rel="canonical" href="https://spero-technologies.com/" />
+        <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+        <link rel="stylesheet" href="/styles.css" />
+    </head>
+
+    <body>
+        <div class="page">
+            <header class="hero">
+                <div class="mark" aria-hidden="true">S</div>
+                <h1>Spero Technologies</h1>
+                <p class="tagline">We make open source apps.</p>
+            </header>
+
+            <main>
+                <section class="about" aria-labelledby="about-heading">
+                    <h2 id="about-heading">About</h2>
+                    <p>
+                        Spero Technologies is a small software company run by
+                        <a href="https://scottdriggers.com">Scott Driggers</a>.
+                        We make apps and release them as open source.
+                    </p>
+                    <p>
+                        Our first app is
+                        <a href="https://apps.apple.com/us/app/roam/6469834197"
+                            >Roam</a
+                        >, a Roku remote for Mac, iPhone, iPad, Apple Watch,
+                        Vision Pro, and Apple TV. It can play your TV's audio
+                        through your headphones, it's under 8&nbsp;MB, and it
+                        opens in about half a second. The code is on
+                        <a href="https://github.com/msdrigg/roam">GitHub</a>.
+                    </p>
+                </section>
+            </main>
+
+            <footer>
+                <nav aria-label="Elsewhere">
+                    <a href="https://github.com/msdrigg">GitHub</a>
+                    <span aria-hidden="true">·</span>
+                    <a href="https://scottdriggers.com">scottdriggers.com</a>
+                </nav>
+                <p class="copyright">
+                    &copy; <span id="year">2026</span> Spero Technologies
+                </p>
+            </footer>
+        </div>
+
+        <script>
+            document.getElementById("year").textContent =
+                new Date().getFullYear();
+        </script>
+    </body>
+</html>
