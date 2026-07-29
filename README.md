@@ -14,7 +14,7 @@ Then open http://localhost:8000.
 
 ## Deploying
 
-Pushes to `main` deploy automatically to Cloudflare Pages (project `spero`).
+Pushes to `main` deploy automatically via Workers Builds (Worker `spero`).
 
-- Build command: `echo "Building... Done!"` (nothing to build)
-- Output directory: `src`
+There is no build step. `wrangler.jsonc` points the assets directory at `src/`,
+so the default deploy command (`npx wrangler deploy`) is all that's needed.
