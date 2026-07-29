@@ -1,5 +1,5 @@
 {
-    "name": "spero",
+    "name": "spero-web",
     "compatibility_date": "2026-07-29",
     "assets": {
         "directory": "./src"
